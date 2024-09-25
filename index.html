@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-Sider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+
+        <div class="game-lose">
+            <div class="game-container">
+                <div class="game-image">
+                    <img src="images/lost.gif" alt="">
+                </div>
+                <h1 class="game-title">Game Over!</h1>
+                <div class="correct-word">The correct word was: <span class="correct"></span></div>
+                <button class="button" onclick="play()">PLAY AGAIN</button>
+            </div>
+        </div>
+        <div class="game-win">
+            <div class="game-container">
+                <div class="game-image">
+                    <img src="images/victory.gif" alt="">
+                </div>
+                <h1 class="game-title">Congrats!</h1>
+                <div class="correct-word">You found the word : <span class="correct"></span></div>
+                <button class="button" onclick="play()">PLAY AGAIN</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hang-man">
+                <div class="hang-box">
+                    <div class="hanger size">
+                        <img class="hang-image" src="images/hangman-0.svg" alt="">
+                    </div>
+                </div>
+                <h2 class="game-title">HANGMAN GAME</h2>
+            </div>
+            <div class="game-content">
+                <div class="game-data">
+                    <div class="words">
+                    </div>
+                    <div class="hint">Hint: <span class="hint-text">Anart formusing colors on a surface to create image
+                            or
+                            expression</span></div>
+                    <div class="guesses">Incorrect guesses: <span class="guess-value"><span class="value">0</span> /
+                            6</span></div>
+                </div>
+                <div class="game-items">
+                    <div class="alphabets">A</div>
+                    <div class="alphabets">B</div>
+                    <div class="alphabets">C</div>
+                    <div class="alphabets">D</div>
+                    <div class="alphabets">E</div>
+                    <div class="alphabets">F</div>
+                    <div class="alphabets">G</div>
+                    <div class="alphabets">H</div>
+                    <div class="alphabets">I</div>
+                    <div class="alphabets">J</div>
+                    <div class="alphabets">K</div>
+                    <div class="alphabets">L</div>
+                    <div class="alphabets">M</div>
+                    <div class="alphabets">N</div>
+                    <div class="alphabets">O</div>
+                    <div class="alphabets">P</div>
+                    <div class="alphabets">Q</div>
+                    <div class="alphabets">R</div>
+                    <div class="alphabets">S</div>
+                    <div class="alphabets">T</div>
+                    <div class="alphabets">U</div>
+                    <div class="alphabets">V</div>
+                    <div class="alphabets">W</div>
+                    <div class="alphabets">X</div>
+                    <div class="alphabets">Y</div>
+                    <div class="alphabets">Z</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="word.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
