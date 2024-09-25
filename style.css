@@ -52,6 +52,7 @@
 .correct-word{
     font-size: 20px;
     font-weight: 600;
+    text-align: center;
 }
 .correct{
     color: blue;
@@ -153,5 +154,8 @@
     .game-title{
         font-size: 21px;
         text-align: center;
+    }
+    .game-container{
+        width: 70%;
     }
 }
